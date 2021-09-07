@@ -14,45 +14,54 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(39, 68, 255);</string>
+   <string notr="true">background-color: rgb(0, 129, 167);
+color:rgb(255, 255, 255);
+font: 15pt &quot;Bahnschrift Light SemiCondensed&quot;;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>12</y>
+      <x>30</x>
+      <y>0</y>
       <width>431</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <family>Bahnschrift Light SemiCondensed</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
-     <string>                 Lista de Produtos</string>
+     <string>                                Lista de Produtos</string>
     </property>
    </widget>
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>60</y>
+      <x>0</x>
+      <y>30</y>
       <width>531</width>
       <height>411</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Bahnschrift Light SemiCondensed</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(254, 254, 142);</string>
+     <string notr="true">background-color: rgb(170, 255, 255);
+color: rgb(255, 0, 0);</string>
     </property>
     <column>
      <property name="text">
@@ -118,21 +127,26 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>490</y>
+      <x>195</x>
+      <y>465</y>
       <width>111</width>
       <height>23</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Bahnschrift SemiBold SemiConden</family>
       <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">font: 63 12pt &quot;Bahnschrift SemiBold SemiConden&quot;;
+background-color: rgb(255, 255, 255);
+color:rgb(0, 129, 167)
+</string>
     </property>
     <property name="text">
      <string>Baixar PDF !</string>
@@ -141,21 +155,26 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>490</y>
+      <x>25</x>
+      <y>465</y>
       <width>111</width>
       <height>23</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Bahnschrift SemiBold SemiConden</family>
       <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">font: 63 12pt &quot;Bahnschrift SemiBold SemiConden&quot;;
+background-color: rgb(255, 255, 255);
+color:rgb(0, 129, 167)
+</string>
     </property>
     <property name="text">
      <string>DELETAR !</string>
@@ -164,21 +183,26 @@
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>490</y>
+      <x>355</x>
+      <y>465</y>
       <width>161</width>
       <height>23</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Bahnschrift SemiBold SemiConden</family>
       <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">font: 63 12pt &quot;Bahnschrift SemiBold SemiConden&quot;;
+background-color: rgb(255, 255, 255);
+color:rgb(0, 129, 167)
+</string>
     </property>
     <property name="text">
      <string>EDITAR TABELA !</string>
@@ -191,7 +215,7 @@
      <x>0</x>
      <y>0</y>
      <width>525</width>
-     <height>21</height>
+     <height>30</height>
     </rect>
    </property>
   </widget>
