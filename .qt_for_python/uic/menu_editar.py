@@ -53,6 +53,7 @@ class Ui_MainWindow(object):
         self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit.setGeometry(QtCore.QRect(40, 120, 101, 31))
         self.lineEdit.setStyleSheet("background-color: rgb(170, 170, 170);")
+        self.lineEdit.setText("")
         self.lineEdit.setObjectName("lineEdit")
         self.lineEdit_2 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit_2.setGeometry(QtCore.QRect(140, 120, 101, 31))

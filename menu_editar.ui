@@ -97,6 +97,9 @@ font: 15pt &quot;Bahnschrift Light SemiCondensed&quot;;</string>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(170, 170, 170);</string>
     </property>
+    <property name="text">
+     <string/>
+    </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_2">
     <property name="geometry">
